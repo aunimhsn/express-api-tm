@@ -1,0 +1,30 @@
+{
+  "name": "express-api-tm",
+  "version": "1.0.0",
+  "description": "Goals setter app. from Traversy Media tutorial. ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aunimhsn/express-api-tm.git"
+  },
+  "author": "Aunim Hassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aunimhsn/express-api-tm/issues"
+  },
+  "homepage": "https://github.com/aunimhsn/express-api-tm#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
